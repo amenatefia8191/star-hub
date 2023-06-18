@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-----  CSS linking   -->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-----   boxicon ICON CDN    ---->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-----   Tailwinds CSS link   ---->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-white">
+
+    <header>
+
+        <label for="logo" class="logo">
+            <img src="/img/start hub.jpg" alt="">
+        </label>
+
+        <ul class="navListed">
+
+            <ul class="navList">
+                <li><a href="#community" id="anchor">community</a></li>
+                <li><a href="#course" id="anchor">courses</a></li>
+                <li><a href="#contact" id="anchor">contact</a></li>
+                <li><a href="#about" id="anchor">about us</a></li>
+            </ul>
+
+            <div class="nav-btn">
+                <button id="btn-A">sing in</button>
+                <button id="btn-B">sing up</button>
+            </div>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </header>
+
+    <!-----   HOME   section   building block    --->
+
+    <section class="home-section mt-24 " id="community" >
+
+        <div class="flex justify-between items-center max-[810px]:flex max-[810px]:flex-col max-[810px]:gap-20 max-[768px]:flex max-[768px]:flex-col max-[768px]:gap-20 max-[640px]:flex-col max-[640px]:gap-20 max-[428px]:flex-col max-[428px]:gap-20 ">
+            <div class="text-area max-[768px]:text-center max-[640px]:text-center">
+                <h1 class="text-6xl font-bold text-blue-900 max-[1024px]:text-6xl  max-[810px]:text-5xl max-[490px]:text-4xl ">Learning Skill for <br>
+                     a better career
+                </h1>
+                <p class="text-base font-thin mt-4 max-[490px]:text-sm">
+                    we believe the world is more beautiful as each person 
+                    <br> get more skill and implement.
+                </p>
+                <form class="input-area mt-4 max-[768px]:text-center max-[768px]:flex max-[768px]:justify-center max-[810px]:text-center max-[810px]:flex max-[810px]:justify-center " id="emailForm">
+                    <input type="text" name="email" id="emailInput" placeholder="Enter Your Email" required>
+                    <button type="submit max-[390px]:text-sm">14 days trails</button>
+                </form>
+
+                <div class="flex mt-4 gap-4 max-[810px]:justify-center max-[768px]:justify-center max-[640px]:justify-center ">
+    
+                    <div class="home-avaters-section">
+                        <img src="/img/avater-1.jpg" alt="">
+                        <img src="/img/avater-2.jpg" alt="">
+                        <img src="/img/avater-3.jpg" alt="">
+                        <img src="/img/avater-4.jpg" alt="">
+                        <img src="/img/avater-5.jpg" alt="">
+                    </div>
+    
+                    <div>
+                        <h5 class="text-xs">32K+ Review with 5 star rating</h5>
+                        <div class="flex">
+                            <i class='bx bxs-star text-black'></i>
+                            <i class='bx bxs-star text-black'></i>
+                            <i class='bx bxs-star text-black'></i>
+                            <i class='bx bxs-star text-black'></i>
+                            <i class='bx bxs-star text-gray-400'></i>
+                        </div>
+                    </div>
+                </div>
+             </div>
+    
+             <div class="container-images ">
+                <div class="home-img-1">
+                    <img src="/img/img-1.jpg" alt=" an image of a person" class="max-[428px]:rounded-2xl">
+    
+                    <div class="intro-1 bg-white w-48 pt-2 pb-2 pr-2 pl-2 rounded-2xl">
+                        <h5 class="text-xs font-bold capitalize">Full-stack web developer: <br> toko online</h5>
+                       <div class="flex gap-4 mt-2 items-center"> 
+                            <div class="flex">
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                            </div>
+                            <div>
+                                <p class="text-base font-bold flex items-center gap-2">40 <span class="text-xs text-gray-400 font-thin">Members</span></p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+    
+                <div class="home-img-2">
+                    <img src="/img/img-2.jpg" alt=" an image of a person" class="max-[428px]:rounded-2xl">
+                    <div class="intro-3 bg-white w-48 pt-2 pb-2 pr-2 pl-2 rounded-2xl">
+                        <h5 class="text-xs font-bold capitalize">Full-stack web developer: <br> toko online</h5>
+                       <div class="flex gap-4 mt-2 items-center"> 
+                            <div class="flex">
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                            </div>
+                            <div>
+                                <p class="text-base font-bold flex items-center gap-2">40 <span class="text-xs text-gray-400 font-thin">Members</span></p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+    
+                <div class="home-img-3">
+                    <img src="/img/img-3.jpg" alt=" an image of a person" class="max-[428px]:rounded-2xl">
+                    <div class="intro-2 bg-white w-48 pt-2 pb-2 pr-2 pl-2 rounded-2xl">
+                        <h5 class="text-xs font-bold capitalize">Full-stack web developer: <br> toko online</h5>
+                       <div class="flex gap-4 mt-2 items-center"> 
+                            <div class="flex">
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                                <i class='bx bxs-star text-amber-400'></i>
+                            </div>
+                            <div>
+                                <p class="text-base font-bold flex items-center gap-2">40 <span class="text-xs text-gray-400 font-thin">Members</span></p>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+    
+                <div class="home-img-4">
+                    <img src="/img/img-4.jpg" alt=" an image of a person" class="max-[428px]:rounded-2xl">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex mt-20 gap-10 items-center max-[810px]:justify-center max-[768px]:justify-center max-[640px]:mt-24 max-[428px]:grid max-[428px]:grid-cols-2 max-[428px]:gap-4 max-[428px]:justify-items-center">
+            <div>
+                <h5 class="font-bold text-black">12+</h5>
+                <p class="capitalize text-gray-600 mt-2 max-[810px]:text-sm max-[768px]:text-xs max-[640px]:text-xs">fresh graduates</p>
+            </div>
+                <span class="w-px h-8 bg-gray-700 max-[428px]:hidden"></span>
+            <div>
+                <h5 class="font-bold text-black">9+</h5>
+                <p class="capitalize text-gray-600 mt-2 max-[810px]:text-sm max-[768px]:text-xs max-[640px]:text-xs">your experience</p>
+            </div>
+                <span class="w-px h-8 bg-gray-700 max-[428px]:hidden"></span>
+            <div>
+                <h5 class="font-bold text-black">354+</h5>
+                <p class="capitalize text-gray-600 mt-2 max-[810px]:text-sm max-[768px]:text-xs max-[640px]:text-xs">excellence award</p>
+            </div>
+                <span class="w-px h-8 bg-gray-700 max-[428px]:hidden"></span>
+            <div>
+                <h5 class="font-bold text-black">73+</h5>
+                <p class="capitalize text-gray-600 mt-2 max-[810px]:text-sm max-[768px]:text-xs max-[640px]:text-xs">brand partners</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="w-3/4 mr-auto ml-auto">
+
+    <!-----     COMMUNITY  Section  block  -->
+
+    <div class="brans-log flex justify-center gap-16 mt-10 max-[428px]:gap-8 max-[390px]:grid max-[390px]:grid-cols-3 max-[390px]:flex-col max-[390px]:justify-center max-[390px]:flex-col max-[390px]:justify-items-center ">
+        <img src="/img/logo.png" alt="">
+        <img src="/img/logo-1.png" alt="">
+        <img src="/img/logo-2.png" alt="">
+        <img src="/img/logo-3.png" alt="">
+        <img src="/img/logo-4.png" alt="">
+        <img src="/img/logo-5.png" alt="">
+    </div>
+
+    <section class="community-section flex items-center justify-between mt-14 max-[810px]:gap-6 max-[768px]:gap-6 max-[640px]:flex-col max-[640px]:justify-center max-[640px]:gap-8" id="community">
+        <div class="img">
+            <div class="img-layout">
+                <div class="icon">
+                    <i class='bx bxs-right-arrow'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-area">
+            <h2 class="text-4xl font-light max-[810px]:text-3xl max-[768px]:text-3xl ">Learn from leading <br> university and companies</h2>
+            <p class="text-gray-600 text-base font-light mt-6  max-[810px]:w-27 max-[810px]:text-sm max-[768px]:text-sm max-[360px]:text-xs max-[360px]:w-56 max-[360px]:italic ">Start streaming on video demand lectures today from top <br>
+                instructor in subject like business, computer science, <br>
+                data science, language learning, & more
+            </p>
+
+            <button class="capitalize font-xs text-white bg-blue-900 pt-4 pb-4 pl-10 pr-10 rounded-full mt-6">start learning now</button>
+        </div>
+    </section>
+
+
+    <!------   Course section  block     ---->
+
+    <section id="course" class="course">
+        <div class="flex items-center justify-between max-[428px]:flex-col">
+            <h3 class="font-light text-blue-900 text-3xl max-[640px]:text-2xl">Get choice of your Course</h3>
+            <div class="flex items-center gap-4">
+                <p class="font-light  text-blue-900 max-[428px]:text-xs">Design</p>
+                <i class='bx bx-chevron-down text-4xl font-thin max-[640px]:text-3xl max-[428px]:text-2xl'></i>
+                <button class="pt-4 pb-4 pr-10 pl-10 bg-blue-900 rounded-full text-sm text-white font-thin max-[640px]:text-xs max-[428px]:pt-2 max-[428px]:pb-2 max-[428px]:pl-10 max-[428px]:pr-10">View all</button>
+            </div>
+        </div>
+
+        <div class="card-container">
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-1.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-4">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">4.5 <span class="text-gray-300">(120)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900">28,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">36<span class="text-gray-300">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div class="md:mt-4">
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">product management intro- <br> course</h5>
+                    <div class="flex item-center justify-between pt-4">
+                        <div class="flex item-center small-img gap-4 ">
+                            <img src="/img/img-2.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm ">Kara David</p>
+                        </div>
+                        <div class="flex item-center gap-2">
+                            <h5 class="line-through text-gray-300 max-[768px]:text-sm">$55.0</h5>
+                            <h5 class="max-[768px]:text-sm">$37.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-2.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-4">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">5<span class="text-gray-300 max-[768px]:text-sm">(200)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900">78,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">96<span class="text-gray-300 max-[768px]:text-sm">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">Introduction to HTML,CSS and<br> Javascript</h5>
+                    <div class="flex item-center justify-between pt-4 ">
+                        <div class="flex item-center small-img gap-4">
+                            <img src="/img/img-1.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm">Jerry Thomas</p>
+                        </div>
+                        <div class="flex item-center gap-2">
+                            <h5 class="text-gray-300 line-through max-[768px]:text-sm">$55.0</h5>
+                            <h5 class="max-[768px]:text-sm">$47.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-3.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-4">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">4.5<span class="text-gray-300">(120)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900">28,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">36<span class="text-gray-300">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">Introduction to Python, Django &<br> API's</h5>
+                    <div class="flex item-center justify-between pt-4">
+                        <div class="flex item-center small-img gap-4">
+                            <img src="/img/img-3.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm">Patrick James</p>
+                        </div>
+                        <div class="flex item-center gap-2">
+                            <h5 class="text-gray-300 line-through max-[768px]:text-sm">$99.10</h5>
+                            <h5 class="max-[768px]:text-sm">$57.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-4.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-4">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">5<span class="text-gray-300 max-[768px]:text-sm">(200)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900">82,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">56<span class="text-gray-300">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">Mastering the art of graphics<br> Design</h5>
+                    <div class="flex item-center justify-between pt-4">
+                        <div class="flex item-center small-img gap-4">
+                            <img src="/img/img-4.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm">Wade  Warren</p>
+                        </div>
+                        <div class="flex item-center gap-2 max-[768px]:text-sm">
+                            <h5 class="max-[768px]:text-sm">$37.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-5.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-10">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">4.5<span class="text-gray-300">(120)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900 max-[768px]:text-sm">45,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">33<span class="text-gray-300">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">Introduction to HTML,CSS and<br> Javascript</h5>
+                    <div class="flex item-center justify-between pt-4">
+                        <div class="flex item-center small-img gap-4">
+                            <img src="/img/img-1.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm">jGold Thomas</p>
+                        </div>
+                        <div class="flex item-center gap-2">
+                            <h5 class="text-gray-300 line-through max-[768px]:text-sm">$55.0</h5>
+                            <h5 class="max-[768px]:text-sm">$37.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-content">
+
+                <div class="card-1">
+                    <img src="/img/card-6.jpg" alt="an image">
+                </div>
+
+                <div class="flex item-center justify-between pt-4">
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-star' id="myIcon"></i>
+                        <h5 class="text-sm ">5<span class="text-gray-300">(220)</span></h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-show'></i>
+                        <h5 class="text-sm text-blue-900">38,500</h5>
+                    </div>
+
+                    <div class="flex item-center gap-1">
+                        <i class='bx bx-right-arrow text-green-500'></i>
+                        <h5 class="text-blue-900 max-[768px]:text-sm">56<span class="text-gray-300">Lesson</span></h5>
+                    </div>
+                </div>
+
+                <div>
+                    <h5 class="text-base text-blue-900 font-thin pt-4 max-[768px]:text-sm">Mastering the concept of Digital<br>Marketing</h5>
+                    <div class="flex item-center justify-between pt-4">
+                        <div class="flex item-center small-img gap-4">
+                            <img src="/img/img-1.jpg" alt="">
+                            <p class="text-blue-900 max-[768px]:text-sm">Jerry Thomas</p>
+                        </div>
+                        <div class="flex item-center gap-2">
+                            <h5 class="text-gray-300 line-through max-[768px]:text-sm">$55.0</h5>
+                            <h5 class="max-[768px]:text-sm">$37.67</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="community-section flex items-center justify-between flex-row-reverse max-[768px]:gap-6 max-[640px]:flex-col max-[640px]:justify-center max-[640px]:gap-8 max-[360px]:italic " id="community">
+        <div class="img">
+            <div class="img-layout">
+                <div class="icon">
+                    <i class='bx bxs-right-arrow'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-area">
+            <h2 class="text-4xl font-light max-[810x]:text-3xl max-[768px]:text-3xl ">Learn from leading <br> university and companies</h2>
+            <p class="text-gray-600 text-base font-light mt-6  max-[810px]:w-72 max-[768px]:text-sm max-[360px]:text-xs max-[360px]:w-56">Start streaming on video demand lectures today from top <br>
+                instructor in subject like business, computer science, <br>
+                data science, language learning, & more
+            </p>
+
+            <button class="capitalize font-xs text-white bg-blue-900 pt-4 pb-4 pl-10 pr-10 rounded-full mt-6">start learning now</button>
+        </div>
+    </section>
+
+    <section class="Testimonial" id="about">
+
+        <h3 class="capitalize text-5xl flex justify-center">Testimonial</h3>
+
+        <div class="flex items-center justify-between pt-10 max-[640px]:justify-around max-[390px]:flex-col max-[390px]:gap-4">
+            <div class="text-area flex items-center gap-4">
+                <img src="/img/avater-1.jpg" alt="" class="w-8 rounded ">
+                <h5 class="font-bold ">John Deo <br> <span class="text-sm text-gray-300 font-thin">SomeCompany LLC</span></h5>
+            </div>
+
+            <span class="text-gray-600 text-1xl font-light  max-[810px]:w-96 max-[810px]:text-sm max-[800px]:w-96 max-[768px]:text-sm max-[640px]:text-xs max-[640px]:w-64 max-[414px]:italic">
+                The service was absolutely impossible. i see myself and my family visiting here much more <br> frequently   
+            </span>
+        </div>
+
+        <div class="flex items-center justify-between pt-10 max-[810px]:text-sm max-[640px]:justify-around max-[390px]:flex-col max-[390px]:gap-4">
+            <div class="text-area flex items-center gap-4">
+                <img src="/img/avater-2.jpg" alt="" class="w-8 rounded ">
+                <h5 class="font-bold ">John Deo <br> <span class="text-sm text-gray-300 font-thin">SomeCompany LLC</span></h5>
+            </div>
+
+            <span class="text-gray-600 text-1xl font-light  max-[810px]:w-96 max-[768px]:text-sm max-[800px]:w-96 max-[640px]:text-xs max-[640px]:w-64 max-[414px]:italic">
+                The service was absolutely impossible. i see myself and my family visiting here much more <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, quam! frequently  <br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, cumque? <br>
+                Cupiditate voluptate iste consequatur?  
+            </span>
+        </div>
+
+        <div class="flex items-center justify-between pt-10  max-[640px]:justify-around max-[390px]:flex-col max-[390px]:gap-4">
+            <div class="text-area flex items-center gap-4">
+                <img src="/img/avater-3.jpg" alt="" class="w-8 rounded ">
+                <h5 class="font-bold ">John Deo <br> <span class="text-sm text-gray-300 font-thin">SomeCompany LLC</span></h5>
+            </div>
+
+            <span class="text-gray-600 text-1xl font-light max-[810px]:w-96 max-[810px]:text-sm max-[800px]:w-96 max-[768px]:text-sm max-[640px]:text-xs max-[640px]:w-64 max-[414px]:italic">
+                The service was absolutely impossible. i see myself and my family visiting here much more <br>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident, quam! frequently  <br>
+                Cupiditate voluptate iste consequatur?  
+            </span>
+        </div>
+    </section>
+
+    <footer class="w-full bg-blue-950 pt-14 pb-14 pl-20 pr-20 " id="contact">
+        <hr class="mt-10 max-[800px]:mt-2 max-[810px]:mt-2">
+        <div class="flex items-center justify-between pt-20 pb-20 max-[810px]:pt-14 max-[810px]:pb-8 max-[800px]:pt-14 max-[800px]:pb-8  max-[800px]: max-[640px]:flex-col max-[640px]:gap-20">
+            <img src="/img/logog.png" alt="" class="rounded-full max-[800px]:w-20 max-[768px]:w-24 max-[640px]:w-20 max-[428px]:w-20">
+            <div>
+                <div class="flex items-center text-white gap-4 ">
+                    <i class='bx bxs-location-plus'></i>
+                    <h5 class="max-[810px]:text-sm max-[768px]:text-sm ">345Faulconer Drive, suilt4+Charlottescille,CA12345</h5>
+                </div>
+                <div class="flex items-center justify-between text-white mt-4 mb-4 max-[390px]:flex-col ">
+                    <h5><i class='bx bxs-phone-call max-[640px]:text-sm'></i> <span class="max-[768px]:text-sm max-[800px]:text-sm">(123)456-7890</span></h5>
+                    <h5><i class='bx bx-hdd max-[640px]:text-sm'></i> <span class="max-[768px]:text-sm">(123)456-7890</span></h5>
+                </div>
+                <div class="flex text-white items-center gap-4 max-[390px]:gap-2 max-[390px]:grid max-[390px]:grid-cols-3">
+                    <span class="text-sm">Socials Medias </span>
+                    <i class='bx bxl-facebook text-2xl'></i>
+                    <i class='bx bxl-twitter text-2xl'></i>
+                    <i class='bx bxl-linkedin text-2xl'></i>
+                    <i class='bx bxl-youtube text-2xl'></i>
+                    <i class='bx bxl-instagram-alt text-2xl'></i>
+                    <i class='bx bxl-google-plus text-2xl'></i>
+                    <i class='bx bxl-pinterest text-2xl'></i>
+                    <i class='bx bx-wifi text-2xl'></i>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-4">
+
+        <div class="flex gap-12 mt-8 max-[640px]:gap-10 max-[800px]:mt-2 max-[428px]:gap-16 max-[428px]:grid max-[428px]:grid-cols-3 ">
+            <a href="#" class="text-gray-300  max-[810px]:text-sm max-[800px]:text-xs max-[768px]:text-xs max-[640px]:text-xs max-[428px]:text-xs">ABOUT US</a>
+            <a href="#" class="text-gray-300  max-[810px]:text-sm max-[800px]:text-xs max-[768px]:text-xs max-[640px]:text-xs max-[428px]:text-xs">CONTACT US</a>
+            <a href="#" class="text-gray-300  max-[810px]:text-sm max-[800px]:text-xs max-[768px]:text-xs max-[640px]:text-xs max-[428px]:text-xs">HELP</a>
+            <a href="#" class="text-gray-300  max-[810px]:text-sm max-[800px]:text-xs max-[768px]:text-xs max-[640px]:text-xs max-[428px]:text-xs">PRIVACYPOLICY</a>
+            <a href="#" class="text-gray-300  max-[810px]:text-sm max-[800px]:text-xs max-[768px]:text-xs max-[640px]:text-xs max-[428px]:text-xs">Disclaim</a>
+        </div>
+    </footer>
+    
+    <div class="scroll">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
