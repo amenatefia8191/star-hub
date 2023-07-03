@@ -10,7 +10,9 @@ body {
     background-color: var(--bg-color-1);
 }
 section {
-    padding: 70px 90px;
+    max-width: 1200px;
+    margin: 6rem auto ;
+    padding: 0 20px;
 }
 :root {
     --logo-width: 8rem;
@@ -133,12 +135,12 @@ header {
     border-radius: 30px;
 }
 .container-images img {
-    width:250px;
-    height: 200px;
+    width: 200px;
+    /* height: 200px; */
 } 
 .container-images {
     display: grid;
-    grid-template-columns: repeat(2, 250px);
+    grid-template-columns: repeat(auto, minmax(250px));
     /* grid-template-rows: repeat(2, 16rem); */
     gap: 10px;
 }
@@ -183,7 +185,6 @@ header {
 }
 .brans-log img {
     width: 80px;
-    height: 40px;
 }
 .img {
     padding: 20px 30px;
@@ -239,7 +240,7 @@ header {
     margin-top: 40px;
 }
 footer {
-    height: 80vh;
+    height: 90vh;
 }
 .scroll {
     position: fixed;
@@ -254,41 +255,161 @@ footer {
     padding: 10px;
     border-radius: 2rem;
 }
+@media (max-width: 1280px) {
+    .input-area {
+        display: flex;
+        align-items: center;
+        background-color: #EFF0F6;
+        width: 400px;
+        height: 50px; 
+        border-radius: 30px;
+    }
+    .input-area input {
+        width: 61%;
+        background-color: transparent;
+        border: none;
+        padding: 0px 0px 0px 17px;
+        outline: none;
+        border-radius: 30px;
+        font-size: 13px;
+        color: #222222;
+    }
+    ::placeholder {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .input-area button {
+        padding: 13px 33px 13px 32px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        color: var(--bg-color-1);
+        background-color: var(--nav-btn-color);
+        height: auto;
+        border: none;
+        border-radius: 30px;
+    }
+}
 
+@media (max-width: 1262px) {
+    section {
+    }
+    .input-area {
+        display: flex;
+        align-items: center;
+        background-color: #EFF0F6;
+        width: 400px;
+        height: 50px; 
+        border-radius: 30px;
+    }
+    .input-area input {
+        width: 61%;
+        background-color: transparent;
+        border: none;
+        padding: 0px 0px 0px 17px;
+        outline: none;
+        border-radius: 30px;
+        font-size: 13px;
+        color: #222222;
+    }
+    ::placeholder {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .input-area button {
+        padding: 13px 33px 13px 32px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        color: var(--bg-color-1);
+        background-color: var(--nav-btn-color);
+        height: auto;
+        border: none;
+        border-radius: 30px;
+    }
+}
+@media (-width: 1240px) {
+    section {
+    }
+}
 
+@media (max-width: 1536px) {
+    section {
+    }
+    .img {
+        padding: 20px 30px;
+        background-color: var(--bg-color-1);
+        width: 550px;
+        box-shadow: 0 0.4rem 30rem rgba(0, 0, 0, 0.1);
+    }
+    .img-layout {
+        background-image: url('/img/video-img.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        height: 350px;
+    }
+    .img-layout .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container-images {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        /* grid-template-rows: repeat(2, 16rem); */
+        gap: 10px;
+    }
+    .container-images img {
+        width: 290px;
+        height: 200px;
+    } 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .input-area {
+        display: flex;
+        align-items: center;
+        background-color: #EFF0F6;
+        width: 500px;
+        gap: 10px;
+        height: 60px; 
+        border-radius: 30px;
+    }
+    .input-area input {
+        width: 61%;
+        background-color: transparent;
+        border: none;
+        padding: 0px 0px 0px 17px;
+        outline: none;
+        font-family: 'poppins', sans-serif;
+        border-radius: 30px;
+        font-size: 15px;
+        color: #222222;
+    }
+    ::placeholder {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .input-area button {
+        padding: 15px 48px 16px 48px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        color: var(--bg-color-1);
+        background-color: var(--nav-btn-color);
+        height: auto;
+        border: none;
+        border-radius: 30px;
+    }
+}
 @media (max-width: 810px) {
     .navListed {
         background-color: var(--bg-color-1);
         top: -500px;
         left: 0%;
         position: absolute;
-        width: 70%;
-        height: 50vh;
+        width: 80%;
+        height: 4 0vh;
         display: block;
         padding: 5% 0px;
         border-bottom-right-radius: 20px;
@@ -317,7 +438,6 @@ footer {
 }
 @media (max-width: 1024px) {
     section {
-        padding: 70px 30px;
     }
     .intro-3 {
         margin-left: 4rem;
@@ -381,7 +501,6 @@ footer {
     }
     .brans-log img {
         width: 40px;
-        height: 20px;
     }
     .card-container {
         display: grid;
@@ -477,6 +596,9 @@ footer {
         }
 }
 @media (max-width: 428px) {
+    .brands-log {
+        width: 0;
+    }
     :root {
         --logo-width: 8rem;
         --bg-color-1: #FFFFFF;
@@ -487,7 +609,6 @@ footer {
         --nav-gap: 14px
     } 
     section  {
-        padding: 70px 10px;
     }
     header {
         padding: 13px 10%;
@@ -533,6 +654,7 @@ footer {
     .navListed {
         display: flex;
         flex-direction: column;
+        padding-bottom: 30px;
     }
     .input-area {
         display: flex;
@@ -557,7 +679,7 @@ footer {
         font-weight: 400;
     }
     .input-area button {
-        padding: 13px 33px 13px 32px;
+        padding: 9px 25px ;
         cursor: pointer;
         text-align: center;
         font-size: 10px;
@@ -578,5 +700,8 @@ footer {
     .intro-3 {
         margin-top: -3rem;
         margin-left: 8rem;
+    }
+    footer {
+        height: 110vh;
     }
 }
